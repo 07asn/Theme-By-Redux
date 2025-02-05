@@ -1,0 +1,28 @@
+/* - - - index.css - - - */
+
+/* Light theme styles */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s ease;
+}
+
+/* Dark theme styles */
+body.dark {
+  background-color: #333333;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
